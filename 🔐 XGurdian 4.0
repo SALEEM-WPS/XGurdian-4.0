@@ -1,9 +1,9 @@
-#🔐 XGurdian 4.0
+🔐 XGurdian 4.0
 Extreme Generator of Password Security — A single-file, production-grade password + passphrase generator written in Rust.
 
 XGurdian is designed to create cryptographically secure passwords, pronounceable passwords, and passphrases. It comes with built-in entropy estimation, weak password detection, history logging, and flexible CLI options.
 
-#✨ Features
+✨ Features
 
 🔑 Secure randomness (using OsRng)
 
@@ -76,7 +76,7 @@ Export 5 passwords to a file:
 
 cargo run --release --count 5 --file output.txt
 
-#📊 Entropy Strength Labels
+📊 Entropy Strength Labels
 
 < 50 bits → Weak ⚠️
 
@@ -86,10 +86,10 @@ cargo run --release --count 5 --file output.txt
 
 110+ bits → Very Strong 🔵
 
-#📝 History
+📝 History
 
 Every generated password/passphrase is appended to xgps_history.txt with a UTC timestamp.
-#📖 Notes
+📖 Notes
 
 This project ships with a compact embedded wordlist (~250 words) for demo purposes.
 
